@@ -1,0 +1,11 @@
+=== NewRoadUGM
+state=Closed
+error mesin SAC: 0
+   Points: 18
+   Links: 24
+   Shapes: 6
+   LoopLastPoint: 0
+   offsetTargets: 0
+   elevationTargets: 0
+   surfaceTargets: 0
+   point: (0,0) (5,-0.15) (7,-0.21) (0,-0.05) (7,-0.26) (5,-0.2) (7,-0.51) (5,-0.45) (7,-0.66) (5,-0.6) (7,-0.86) (5,-0.8) (7,-1.06) (5,-1) (7.5596,-0.2268) (8.3941,-0.437) (9.8085,-1.1443) (13.52,-3)

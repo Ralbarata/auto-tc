@@ -1,0 +1,107 @@
+{
+  "nama": "Rajekwesi",
+  "interval_menit": 5,
+  "peta_kelas": {
+    "motorcycle": "SM",
+    "car": "MP",
+    "truck": "KS",
+    "bus": "BB"
+  },
+  "catatan_kelas": "Sementara: memakai kelas bawaan model. TB belum bisa dibedakan dari KS sebelum model dilatih ulang.",
+  "gerbang": [
+    {
+      "nama": "Selatan",
+      "poligon": [
+        [
+          0.0192,
+          0.8012
+        ],
+        [
+          0.1016,
+          0.7316
+        ],
+        [
+          0.7051,
+          0.8498
+        ],
+        [
+          0.6786,
+          0.9988
+        ],
+        [
+          0.0027,
+          0.9826
+        ],
+        [
+          0.0018,
+          0.8304
+        ]
+      ]
+    },
+    {
+      "nama": "Timur",
+      "poligon": [
+        [
+          0.69,
+          0.38
+        ],
+        [
+          0.8,
+          0.38
+        ],
+        [
+          0.8,
+          0.57
+        ],
+        [
+          0.69,
+          0.57
+        ]
+      ]
+    },
+    {
+      "nama": "Utara",
+      "poligon": [
+        [
+          0.64,
+          0.24
+        ],
+        [
+          0.715,
+          0.24
+        ],
+        [
+          0.715,
+          0.355
+        ],
+        [
+          0.64,
+          0.355
+        ]
+      ]
+    },
+    {
+      "nama": "Barat",
+      "poligon": [
+        [
+          0.3178,
+          0.4951
+        ],
+        [
+          0.4533,
+          0.3964
+        ],
+        [
+          0.3104,
+          0.3964
+        ],
+        [
+          0.2537,
+          0.4498
+        ]
+      ]
+    }
+  ],
+  "video_acuan": "D:/21 RAJEKWESI/0001000730100000013.mp4",
+  "lintasan_acuan": "C:\\Users\\USER\\AUTO TC by rangga\\hasil\\rajekwesi_uji\\lintasan.npz"
+}

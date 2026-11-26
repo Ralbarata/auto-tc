@@ -1,0 +1,36 @@
+# Lingkungan Python dan berkas sementara
+.venv/
+__pycache__/
+*.pyc
+*.tmp
+*.log
+
+# Pengaturan lokal dan laporan
+.claude/
+ErrorReports/
+uji_awal/
+
+# Hasil pemrosesan (lintasan, Excel, pelatihan): besar dan bisa dibuat ulang dari video
+hasil/
+
+# Data: hanya label yang disimpan, bukan video, salinan ringan, atau dataset turunan
+data/dataset_*/
+data/uji/
+data/manual/proxy/
+
+# Model: bobot .pt disimpan; mesin TensorRT dan ONNX khusus kartu grafis ini, dibuat ulang otomatis
+model/*.engine
+model/*.onnx
+model/*.sedang_dibuat
+model/yolo26x.pt
+
+# Berkas nyasar di akar folder
+/None
+/None.*
+/yolo26n-cls.pt
+/yolo26s-cls.pt
+
+# Plugin Civil 3D: hanya kode sumber
+C3DTools/**/bin/
+C3DTools/**/obj/
+C3DTools/**/.vs/

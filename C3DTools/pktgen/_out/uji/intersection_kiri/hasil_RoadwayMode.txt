@@ -1,0 +1,12 @@
+=== intersection_kiri
+mode tersedia: LayoutMode, RoadwayMode   | dipakai: RoadwayMode
+state=Closed
+error mesin SAC: 0
+   Points: 10
+   Links: 13
+   Shapes: 4
+   LoopLastPoint: 0
+   offsetTargets: 0
+   elevationTargets: 0
+   surfaceTargets: 0
+   point: (0,0) (-5,-0.15) (0,-0.33) (-5,-0.48) (0,-0.48) (-5,-0.63) (0,-0.68) (-5,-0.83) (0,-0.88) (-5,-1.03)

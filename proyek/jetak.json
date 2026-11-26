@@ -1,0 +1,70 @@
+{
+  "nama": "Jetak",
+  "interval_menit": 5,
+  "peta_kelas": {
+    "motorcycle": "SM",
+    "car": "MP",
+    "truck": "KS",
+    "bus": "BB"
+  },
+  "catatan_kelas": "Sementara: memakai kelas bawaan model. TB belum bisa dibedakan dari KS sebelum model dilatih ulang.",
+  "gerbang": [
+    {
+      "nama": "Timur",
+      "poligon": [
+        [
+          0.0,
+          0.6302
+        ],
+        [
+          0.3123,
+          0.6205
+        ],
+        [
+          0.4634,
+          0.6205
+        ],
+        [
+          0.6538,
+          0.5928
+        ],
+        [
+          0.9991,
+          0.5472
+        ],
+        [
+          1.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "nama": "Barat",
+      "poligon": [
+        [
+          0.36,
+          0.12
+        ],
+        [
+          0.49,
+          0.12
+        ],
+        [
+          0.61,
+          0.28
+        ],
+        [
+          0.35,
+          0.28
+        ]
+      ]
+    }
+  ],
+  "video_acuan": "D:\\22 jetak\\0001000835500000013.mp4",
+  "lintasan_acuan": "C:\\Users\\USER\\AUTO TC by rangga\\hasil\\jetak_uji\\siang.npz",
+  "catatan_gerbang": "2026-11-17: dua gerbang di ujung jalan. Barat = ujung jauh dari kamera, Timur = ujung dekat kamera (dikonfirmasi pengguna 2026-11-17; jalur kiri menjauhi kamera = ke Barat). Cadangan zona lama: 'jetak (gerbang zona lama).json'."
+}

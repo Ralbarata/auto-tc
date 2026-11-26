@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<EnumData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EnumDatas>
+    <Groups>
+      <EnumGroup Name="RoadType">
+        <Items>
+          <EnumItem Name="Intersection" DisplayName="Intersection" Key="303" />
+          <EnumItem Name="Lokal" DisplayName="Lokal" Key="304" />
+          <EnumItem Name="Mainroad" DisplayName="Mainroad" Key="305" />
+        </Items>
+      </EnumGroup>
+      <EnumGroup Name="SideStructure">
+        <Items>
+          <EnumItem Name="Wall" DisplayName="Wall" Key="307" />
+          <EnumItem Name="DaylightSide" DisplayName="DaylightSide" Key="302" />
+        </Items>
+      </EnumGroup>
+      <EnumGroup Name="PavementType">
+        <Items>
+          <EnumItem Name="Rigid" DisplayName="Rigid" Key="306" />
+        </Items>
+      </EnumGroup>
+      <EnumGroup Name="MedianType">
+        <Items>
+          <EnumItem Name="CurbMedian" DisplayName="CurbMedian" Key="301" />
+        </Items>
+      </EnumGroup>
+    </Groups>
+    <DefinedVariables />
+  </EnumDatas>
+</EnumData>

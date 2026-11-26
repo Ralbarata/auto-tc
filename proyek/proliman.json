@@ -1,0 +1,14 @@
+{
+  "nama": "Proliman",
+  "interval_menit": 5,
+  "peta_kelas": {
+    "motorcycle": "SM",
+    "car": "MP",
+    "truck": "KS",
+    "bus": "BB"
+  },
+  "catatan_kelas": "Sementara: memakai kelas bawaan model. TB belum bisa dibedakan dari KS sebelum model dilatih ulang.",
+  "gerbang": [],
+  "video_acuan": "D:\\22 PROLIMAN\\00000001257000000.mp4",
+  "lintasan_acuan": "C:\\Users\\USER\\AUTO TC by rangga\\hasil\\proliman_uji\\siang.npz"
+}

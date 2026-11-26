@@ -1,0 +1,23 @@
+;; Survei baca-saja: semua entity di layer marka (model space)
+(vl-load-com)
+(defun c3dt-survey2 ( / f ss i e d r a b p q)
+  (setq f (open "C:/Users/USER/AUTO TC by rangga/C3DTools/_survey2.txt" "w"))
+  (setq ss (ssget "X" '((8 . "*MARK*") (410 . "Model"))) i 0)
+  (if ss
+    (repeat (sslength ss)
+      (setq e (ssname ss i) d (entget e)
+            r (vl-catch-all-apply 'vla-getboundingbox (list (vlax-ename->vla-object e) 'a 'b)))
+      (if (vl-catch-all-error-p r)
+        (write-line (strcat "E;" (cdr (assoc 0 d)) ";" (cdr (assoc 8 d)) ";ERR") f)
+        (progn
+          (setq p (vlax-safearray->list a) q (vlax-safearray->list b))
+          (write-line (strcat "E;" (cdr (assoc 0 d)) ";" (cdr (assoc 8 d)) ";"
+                              (rtos (car p) 2 2) ";" (rtos (cadr p) 2 2) ";"
+                              (rtos (car q) 2 2) ";" (rtos (cadr q) 2 2) ";"
+                              (cdr (assoc 5 d))) f)))
+      (setq i (1+ i))))
+  (write-line "END" f)
+  (close f)
+  (princ "\nSURVEY2-DONE")
+  (princ))
+(c3dt-survey2)

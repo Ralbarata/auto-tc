@@ -1,0 +1,73 @@
+A;B1F919;As Drainase Selatan
+A;A87C49;Alinyemen Horizontal T-B Baru (2)
+A;A765A5;RAMP 4 RAMP OFF (Barat)
+A;85995C;Intersection Ngumpak Dalem (3) - NW - Quadrant
+A;859950;Intersection Ngumpak Dalem (3) - SW - Quadrant
+A;859944;Intersection Ngumpak Dalem (3) - SE - Quadrant
+A;859938;Intersection Ngumpak Dalem (3) - NE - Quadrant
+A;859930;1_JL RAYA SIDODADI-Right-3.500
+A;859928;1_JL RAYA SIDODADI-Left-3.500
+A;859918;Alinyemen Horizontal T-B Baru-Left-7.740 (9)
+A;859831;Intersection Ngumpak Dalem (2) - NW - Quadrant
+A;859825;Intersection Ngumpak Dalem (2) - SW - Quadrant
+A;859819;Intersection Ngumpak Dalem (2) - SE - Quadrant
+A;85980D;Intersection Ngumpak Dalem (2) - NE - Quadrant
+A;859805;1_JL TANPA NAMA (KEL. TANJUNG HARJO)-Right-3.500
+A;8597FD;1_JL TANPA NAMA (KEL. TANJUNG HARJO)-Left-3.500
+A;8597F5;Alinyemen Horizontal T-B Baru-Right-7.740 (8)
+A;8596CF;Intersection Ngumpak Dalem (1) - NW - Quadrant
+A;8596C3;Intersection Ngumpak Dalem (1) - SW - Quadrant
+A;8596B7;Intersection Ngumpak Dalem (1) - SE - Quadrant
+A;8596AB;Intersection Ngumpak Dalem (1) - NE - Quadrant
+A;8596A3;1_JL RAYA DANDER-Right-3.500
+A;85969B;1_JL RAYA DANDER-Left-3.500
+A;859693;Alinyemen Horizontal T-B Baru-Right-7.740 (6)
+A;85968B;Alinyemen Horizontal T-B Baru-Left-7.740 (5)
+A;8594FC;Intersection Ngumpak Dalem - NW - Quadrant
+A;8594F0;Intersection Ngumpak Dalem - SW - Quadrant
+A;8594E4;Intersection Ngumpak Dalem - SE - Quadrant
+A;8594D8;Intersection Ngumpak Dalem - NE - Quadrant
+A;8594D0;1_JL TANPA NAMA (KEL. NGUMPAK DALEM)-Right-3.500
+A;8594C8;1_JL TANPA NAMA (KEL. NGUMPAK DALEM)-Left-3.500
+A;8594C0;Alinyemen Horizontal T-B Baru-Right-7.740
+A;8594B8;Alinyemen Horizontal T-B Baru-Left-7.740
+A;858DD2;1_JL RAYA SIDODADI
+A;858DD0;1_JL TANPA NAMA (KEL. TANJUNG HARJO)
+A;858DCE;1_JL RAYA DANDER
+A;858DCC;1_JL TANPA NAMA (KEL. NGUMPAK DALEM)
+A;8561D3;Alinyemen Horizontal T-B Baru-Right-13.000
+A;8561BD;Alinyemen Horizontal T-B Baru-Left-13.000
+A;83FCAF;Alinyemen Horizontal T-B Baru
+S;B2B510;15 Nov_Main Road Top;x;51.445;51.930;52.427;52.431;54.721;53.962;55.217;56.707;56.860;58.224;x;55.696;55.700;55.819;56.537;58.259;56.031;55.883;55.624;53.704;53.447;53.424;54.469;55.486;56.202;56.912;58.541;56.772;55.415;52.427;49.765;48.727;47.699;46.785;46.357;46.078
+S;A90379;Target Surface Drainase - (3);48.501;49.886;50.251;50.301;50.614;53.373;52.002;50.995;55.504;55.241;55.797;55.854;53.963;52.193;55.598;54.522;53.165;53.373;54.822;53.002;52.012;52.160;52.397;51.671;52.429;54.294;55.245;56.127;55.232;53.790;49.560;47.987;47.250;46.264;45.639;45.029;44.420
+S;A8CD31;Datum;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x
+S;A8CD30;Top;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x
+S;A87D6A;DTM Kawasan Barat (1) (1) (2);x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;45.032;44.563
+S;A87D68;Trase G NEW - (29) (1) (1) (2);x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x
+S;A87D50;Rail-2 (1) (2) (1) (1) (2);x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x
+S;A87D4E;Rail-1 (1) (1) (1) (1) (2);x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x
+S;A87D35;Jalan Nasional Barat (1) (1) (2);x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x
+S;A87C89;EG-Existing (1) (1) (2);48.260;50.000;50.363;50.361;50.497;53.212;52.225;50.012;54.052;55.000;55.733;55.500;54.002;51.762;53.648;54.575;53.977;54.020;53.453;52.959;52.000;52.039;51.122;51.499;52.996;54.525;55.322;53.770;55.471;54.271;49.502;48.000;46.566;46.088;45.500;45.000;44.501
+S;A86BA2;DTM Kawasan Barat (1) (1) (1);x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;45.032;44.563
+S;A86BA0;Trase G NEW - (29) (1) (1) (1);x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x
+S;A86B89;Rail-2 (1) (2) (1) (1) (1);x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x
+S;A86B87;Rail-1 (1) (1) (1) (1) (1);x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x
+S;A86B6E;Jalan Nasional Barat (1) (1) (1);x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x
+S;A86B57;EG-Existing (1) (1) (1);48.260;50.000;50.363;50.361;50.497;53.212;52.225;50.012;54.052;55.000;55.733;55.500;54.002;51.762;53.648;54.575;53.977;54.020;53.453;52.959;52.000;52.039;51.122;51.499;52.996;54.525;55.322;53.770;55.471;54.271;49.502;48.000;46.566;46.088;45.500;45.000;44.501
+S;A82A02;EG-Existing (2);48.260;50.000;50.363;50.361;50.497;53.212;52.225;50.012;54.052;55.000;55.733;55.500;54.002;51.762;53.648;54.575;53.977;54.020;53.453;52.959;52.000;52.039;51.122;51.499;52.996;54.525;55.322;53.770;55.471;54.271;49.502;48.000;46.566;46.088;45.500;45.000;44.501
+S;A76726;DTM Kawasan Barat (1);x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;45.032;44.563
+S;A765A2;Trase G NEW - (29) (1);x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x
+S;A76588;Jalan Lingkungan (Barat) - (28) (1);x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x
+S;A76555;Jalan Lokal (Barat) - (26) (1);x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x
+S;A7651E;JLS Trase G - (20) (1);x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x
+S;A764EC;Rel KAI 2 (Timur) - (18) (1);x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x
+S;A764E9;Rel KAI 1 (Timur) - (17) (1);x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x
+S;A764D9;Rel KAI 2 (Barat) - (16) (1);x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x
+S;A764D6;Rel KAI 1 (Barat) - (15) (1);x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x
+S;85893D;CL-Flyover Datum (1);x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x
+S;8588FD;CL-Flyover Top (1);x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x
+S;8588E4;Rail-2 (1) (2) (1);x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x
+S;8588E2;Rail-1 (1) (1) (1);x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x
+S;8588C2;Jalan Nasional Barat (1);x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x
+S;858716;EG-Existing (1);48.260;50.000;50.363;50.361;50.497;53.212;52.225;50.012;54.052;55.000;55.733;55.500;54.002;51.762;53.648;54.575;53.977;54.020;53.453;52.959;52.000;52.039;51.122;51.499;52.996;54.525;55.322;53.770;55.471;54.271;49.502;48.000;46.566;46.088;45.500;45.000;44.501
+END

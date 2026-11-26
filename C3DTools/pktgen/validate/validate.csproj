@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>disable</Nullable>
+    <PlatformTarget>x64</PlatformTarget>
+    <NoWarn>$(NoWarn);MSB3270;MSB3277</NoWarn>
+    <Sac>C:\Program Files\Autodesk\AutoCAD 2027\C3D\SACRuntime</Sac>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Activities"><HintPath>$(Sac)\System.Activities.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UiPath.Workflow"><HintPath>$(Sac)\UiPath.Workflow.dll</HintPath><Private>false</Private></Reference>
+  </ItemGroup>
+</Project>

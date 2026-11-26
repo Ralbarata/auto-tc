@@ -1,0 +1,108 @@
+{
+  "nama": "Rajekwesi",
+  "interval_menit": 5,
+  "peta_kelas": {
+    "motorcycle": "SM",
+    "car": "MP",
+    "truck": "KS",
+    "bus": "BB"
+  },
+  "catatan_kelas": "Sementara: memakai kelas bawaan model. TB belum bisa dibedakan dari KS sebelum model dilatih ulang.",
+  "gerbang": [
+    {
+      "nama": "Utara",
+      "poligon": [
+        [
+          0.717,
+          0.3235
+        ],
+        [
+          0.8059,
+          0.3575
+        ],
+        [
+          0.8,
+          0.57
+        ],
+        [
+          0.7152,
+          0.5486
+        ]
+      ]
+    },
+    {
+      "nama": "Timur",
+      "poligon": [
+        [
+          0.0192,
+          0.8012
+        ],
+        [
+          0.1016,
+          0.7316
+        ],
+        [
+          0.7051,
+          0.8498
+        ],
+        [
+          0.6786,
+          0.9988
+        ],
+        [
+          0.0027,
+          0.9826
+        ],
+        [
+          0.0018,
+          0.8304
+        ]
+      ]
+    },
+    {
+      "nama": "Selatan",
+      "poligon": [
+        [
+          0.3178,
+          0.4951
+        ],
+        [
+          0.4533,
+          0.3964
+        ],
+        [
+          0.3104,
+          0.3964
+        ],
+        [
+          0.2537,
+          0.4498
+        ]
+      ]
+    },
+    {
+      "nama": "Barat",
+      "poligon": [
+        [
+          0.63,
+          0.24
+        ],
+        [
+          0.72,
+          0.24
+        ],
+        [
+          0.7143,
+          0.3332
+        ],
+        [
+          0.6245,
+          0.3316
+        ]
+      ]
+    }
+  ],
+  "video_acuan": "D:\\22 RAJEKWESI\\0001000807400000013.mp4",
+  "lintasan_acuan": "C:\\Users\\USER\\AUTO TC by rangga\\hasil\\rajekwesi\\22_RAJEKWESI_0001000807400000013.npz",
+  "nama_gerbang_dibetulkan": "2026-11-14: kanan=Utara, kiri=Selatan, jembatan=Barat, dekat kamera=Timur"
+}

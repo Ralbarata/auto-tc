@@ -1,0 +1,6 @@
+(load "C:/Users/USER/AUTO TC by rangga/C3DTools/c3dt_marka_lib.lsp")
+(c3dt-log "TEST")
+(c3dt-mk 7.57 "Utuh" 1222.3 1472.3)
+(c3dt-mk 4.21 "Putus" 1222.3 1302.3)
+(princ "\nC3DT-TEST-DONE")
+(princ)

@@ -1,0 +1,8 @@
+=== pkt
+EnumContainer: langkah LoadDocument ditiru
+lewat perancang: panjang XAML 373771 (file asli 21734 B zip)
+mode tersedia: LayoutMode, RoadwayMode   | dipakai: RoadwayMode
+GAGAL: NullReferenceException: Object reference not set to an instance of an object.
+   at Autodesk.SubassemblyComposer.WorkflowDesigntime.ActivityDesigntime.RefreshPropertyGrid()
+   at Autodesk.SubassemblyComposer.ActivityLibrary.CustomActivity.DisplayNameOnChanged(Object value)
+   at Autodesk.SubassemblyComposer.ActivityLibrary.CustomActivity.PropertyCollection_Set(String propertyName, Object propertyValue, Action`1 onPropertyChanged)

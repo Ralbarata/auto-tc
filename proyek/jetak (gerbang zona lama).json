@@ -1,0 +1,93 @@
+{
+  "nama": "Jetak",
+  "interval_menit": 5,
+  "peta_kelas": {
+    "motorcycle": "SM",
+    "car": "MP",
+    "truck": "KS",
+    "bus": "BB"
+  },
+  "catatan_kelas": "Sementara: memakai kelas bawaan model. TB belum bisa dibedakan dari KS sebelum model dilatih ulang.",
+  "gerbang": [
+    {
+      "nama": "Ke Timur",
+      "poligon": [
+        [
+          0.685,
+          0.9933
+        ],
+        [
+          0.4863,
+          0.6254
+        ],
+        [
+          0.4643,
+          0.373
+        ],
+        [
+          0.435,
+          0.1842
+        ],
+        [
+          0.4872,
+          0.1728
+        ],
+        [
+          0.9945,
+          0.6302
+        ],
+        [
+          0.9991,
+          0.9965
+        ]
+      ]
+    },
+    {
+      "nama": "Ke Barat",
+      "poligon": [
+        [
+          0.3397,
+          0.9982
+        ],
+        [
+          0.0037,
+          1.0
+        ],
+        [
+          0.0009,
+          0.7051
+        ],
+        [
+          0.2738,
+          0.4284
+        ],
+        [
+          0.3278,
+          0.3567
+        ],
+        [
+          0.37,
+          0.2802
+        ],
+        [
+          0.3773,
+          0.2004
+        ],
+        [
+          0.4332,
+          0.1858
+        ],
+        [
+          0.4634,
+          0.3665
+        ],
+        [
+          0.4835,
+          0.6286
+        ]
+      ]
+    }
+  ],
+  "video_acuan": "D:\\22 jetak\\0001000835500000013.mp4",
+  "lintasan_acuan": "C:\\Users\\USER\\AUTO TC by rangga\\hasil\\jetak_uji\\siang.npz"
+}

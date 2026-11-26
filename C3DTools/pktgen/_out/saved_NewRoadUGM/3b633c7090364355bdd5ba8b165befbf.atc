@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<Category xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ItemID idValue="{0662d912-b7b8-46f3-a315-1d97951bdc0f}" />
+  <Properties>
+    <ItemName>Category1</ItemName>
+    <Images>
+      <Image cx="93" cy="123" />
+    </Images>
+  </Properties>
+  <CustomData />
+  <Source />
+  <Palettes />
+  <Packages />
+  <Tools>
+    <Tool Name="NewRoadUGM">
+      <ItemID idValue="{8b7f06f3-43ef-402d-b8b0-348be4ebd93c}" />
+      <Properties>
+        <ItemName>NewRoadUGM</ItemName>
+        <Images>
+          <Image cx="64" cy="64" />
+        </Images>
+        <ToolTip>Version: 0.0</ToolTip>
+        <Help>
+          <HelpFile />
+          <HelpCommand />
+          <HelpData />
+        </Help>
+      </Properties>
+      <Source />
+      <StockToolRef idValue="{7F55AAC0-0256-48D7-BFA5-914702663FDE}" />
+      <Data>
+        <AeccDbSubassembly>
+          <GeometryGenerateMode>UseDotNet</GeometryGenerateMode>
+          <DotNetClass Assembly="3b633c7090364355bdd5ba8b165befbf.xaml">Subassembly.NewRoadUGM</DotNetClass>
+          <Version>0.0</Version>
+          <Params>
+            <Side DataType="long" TypeInfo="16" DisplayName="Side" Description="Side">0<Enum><Left DisplayName="Left">1</Left><Right DisplayName="Right">0</Right></Enum></Side>
+            <GradeRd DataType="double" TypeInfo="16" DisplayName="Grade Road" Description="GradeRd">-0.03</GradeRd>
+            <GradeSh DataType="double" TypeInfo="16" DisplayName="Grade Shoulder" Description="GradeSh">-0.04</GradeSh>
+            <HtBarrier DataType="double" TypeInfo="16" DisplayName="Height Barrier" Description="HtBarrier">0.75</HtBarrier>
+            <HtLab1 DataType="double" TypeInfo="16" DisplayName="Height Label " Description="HtLab1">2.5</HtLab1>
+            <RetTol DataType="double" TypeInfo="16" DisplayName="Retaining Wall Tolerance" Description="RetTol">0.5</RetTol>
+            <Slope DataType="double" TypeInfo="16" DisplayName="Slope Daylight" Description="Slope">0.5</Slope>
+            <WiInner DataType="double" TypeInfo="16" DisplayName="Width Inner Shoulder" Description="WiInner">0.5</WiInner>
+            <WiMark DataType="double" TypeInfo="16" DisplayName="Width Marking" Description="WiMark">0.12</WiMark>
+            <WiMedian DataType="double" TypeInfo="16" DisplayName="Width Median" Description="WiMedian">0.8</WiMedian>
+            <WiOuter DataType="double" TypeInfo="16" DisplayName="Width Outer Shoulder" Description="WiOuter">2</WiOuter>
+            <WiRoad DataType="double" TypeInfo="16" DisplayName="Width Road Lane" Description="WiRoad">3.5</WiRoad>
+            <WiRounding DataType="double" TypeInfo="16" DisplayName="Width Rounding" Description="WiRounding">1</WiRounding>
+            <WiSidBarr DataType="double" TypeInfo="16" DisplayName="Width Side Barrier" Description="WiSidBarr">0.5</WiSidBarr>
+            <WiSidewalk DataType="double" TypeInfo="16" DisplayName="Width Sidewalk" Description="WiSidewalk">1</WiSidewalk>
+            <WiTol DataType="double" TypeInfo="16" DisplayName="Width Tolerance Full Recon" Description="WiTol">1.2</WiTol>
+            <MedLokal DataType="long" TypeInfo="16" DisplayName="Median Lokal" Description="MedLokal">11<Enum><Yes DisplayName="Yes">10</Yes><No DisplayName="No">11</No></Enum></MedLokal>
+            <MedType DataType="long" TypeInfo="16" DisplayName="Median Type" Description="MedType">301<Enum><CurbMedian DisplayName="CurbMedian">301</CurbMedian></Enum></MedType>
+            <PaveMain DataType="long" TypeInfo="16" DisplayName="Pavement Type" Description="PaveMain">306<Enum><Rigid DisplayName="Rigid">306</Rigid></Enum></PaveMain>
+            <RetwithBar DataType="long" TypeInfo="16" DisplayName="Retaining Wall With Barrier" Description="RetwithBar">10<Enum><Yes DisplayName="Yes">10</Yes><No DisplayName="No">11</No></Enum></RetwithBar>
+            <SideStrucMain DataType="long" TypeInfo="16" DisplayName="Side Structure Mainroad" Description="SideStrucMain">302<Enum><Wall DisplayName="Wall">307</Wall><DaylightSide DisplayName="DaylightSide">302</DaylightSide></Enum></SideStrucMain>
+            <TypeRoad DataType="long" TypeInfo="16" DisplayName="Road Type" Description="TypeRoad">304<Enum><Intersection DisplayName="Intersection">303</Intersection><Lokal DisplayName="Lokal">304</Lokal><Mainroad DisplayName="Mainroad">305</Mainroad></Enum></TypeRoad>
+            <WithDitch DataType="long" TypeInfo="16" DisplayName="Daylight With Ditch" Description="WithDitch">10<Enum><Yes DisplayName="Yes">10</Yes><No DisplayName="No">11</No></Enum></WithDitch>
+            <WithLabel DataType="long" TypeInfo="16" DisplayName="With Label" Description="WithLabel">10<Enum><Yes DisplayName="Yes">10</Yes><No DisplayName="No">11</No></Enum></WithLabel>
+          </Params>
+        </AeccDbSubassembly>
+        <Units>m</Units>
+      </Data>
+    </Tool>
+  </Tools>
+  <StockTools />
+</Category>

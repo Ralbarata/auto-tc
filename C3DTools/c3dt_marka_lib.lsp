@@ -1,0 +1,25 @@
+;; Pemanggil RMARK (C3DTools) untuk JLS utama - alignment "Alinyemen Horizontal T-B Baru",
+;; surface no. 32 = "15 Nov_Main Road Top". Tiap panggilan dicatat ke _marka_log.txt.
+(setq c3dt-al (handent "83FCAF") c3dt-surf 32)
+(defun c3dt-cnt ( / s) (setq s (ssget "X" '((8 . "MARKA-UTUH,MARKA-PUTUS")))) (if s (sslength s) 0))
+(defun c3dt-log (txt / f)
+  (setq f (open "C:/Users/USER/AUTO TC by rangga/C3DTools/_marka_log.txt" "a"))
+  (write-line txt f) (close f))
+;; kind: "Utuh" / "Putus"
+(defun c3dt-mk (off kind sa sb / n0 n1)
+  (setq n0 (c3dt-cnt))
+  (if (= kind "Putus")
+    (command "RMARK" c3dt-al c3dt-surf off "Putus" 3.0 5.0 0.12 "Ketik" sa "Ketik" sb "Area" "Ya")
+    (command "RMARK" c3dt-al c3dt-surf off "Utuh" 0.12 "Ketik" sa "Ketik" sb "Area" "Ya"))
+  (while (> (getvar "CMDACTIVE") 0) (command))
+  (setq n1 (c3dt-cnt))
+  (c3dt-log (strcat kind ";" (rtos off 2 2) ";" (rtos sa 2 2) ";" (rtos sb 2 2) ";+" (itoa (- n1 n0)))))
+;; garis utuh dipecah per 250 m supaya lubang surface hanya menggagalkan satu potong
+(defun c3dt-solid (off sa sb / a b)
+  (setq a sa)
+  (while (< a (- sb 0.01))
+    (setq b (min (+ a 250.0) sb))
+    (c3dt-mk off "Utuh" a b)
+    (setq a b)))
+(princ "\nC3DT-LIB-LOADED")
+(princ)

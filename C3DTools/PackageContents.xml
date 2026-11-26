@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ApplicationPackage SchemaVersion="1.0" AutodeskProduct="AutoCAD" ProductType="Application"
+    Name="C3DTools" Description="RMARK, RCHEVRON, C3DMERGE untuk Civil 3D" AppVersion="1.0.0"
+    ProductCode="{6C1B2E0A-5B7D-4E0F-9A53-3D1E7C2A9F41}" UpgradeCode="{B84E0F6D-2C3A-4D58-8E17-5A9C0D4B7E22}">
+  <CompanyDetails Name="C3DTools" />
+  <Components>
+    <RuntimeRequirements OS="Win64" Platform="AutoCAD*" SeriesMin="R26.0" SeriesMax="R26.0" />
+    <ComponentEntry AppName="C3DTools" ModuleName="./Contents/C3DTools.dll" AppDescription="C3DTools" LoadOnAutoCADStartup="True" />
+  </Components>
+</ApplicationPackage>
